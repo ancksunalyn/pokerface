@@ -8,6 +8,7 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -371,6 +372,7 @@
                             <constraint firstItem="yxh-gg-v75" firstAttribute="leading" secondItem="p53-Wb-W6S" secondAttribute="trailing" constant="11" id="zGo-uY-bQo"/>
                             <constraint firstItem="5T2-AL-CNh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1251" id="zwq-U0-bYW"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="NDc-83-aHI"/>
                     </view>
                     <connections>
                         <outlet property="betLabel" destination="8yR-cY-rk7" id="8Ph-rY-lXj"/>
