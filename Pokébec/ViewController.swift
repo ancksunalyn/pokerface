@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     var bet = 0 //Variable utilisé pour contrôler la valeur des mises
     var credits = 2000 //Variable utlisé pour contrôler la valeur des crédits
     var chances = 2 //Variable utilisé pour contrôler les 2 jeux qu'on a dans une main
-    var totalBetHand = 0 //Variable utilisé pour contrôler le total misé
+    var totalBetHand = 0 //Variable utilisé pour contrôler la valeur totale qui a été misée
     
     //---On cree une instance de la classe pokerHands
     let pokerHands = PokerHands()
