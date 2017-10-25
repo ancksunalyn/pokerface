@@ -1,3 +1,5 @@
+//class crée par Mario pour analyser les hands
+
 class PokerHands {
     //==============================================
     func royalFlush(hand: [(card: Int, suit: String)]) -> Bool {

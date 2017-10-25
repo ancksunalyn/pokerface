@@ -2,7 +2,7 @@
 import Foundation
 //======================
 class UserDefaultsManager {
-    // Méthode pour savoir si une clé exist ou pas
+    // Méthode pour savoir s'il y a déjà une clé ou pas
     func doesKeyExist(theKey: String) -> Bool {
         if UserDefaults.standard.object(forKey: theKey) == nil {
             return false
